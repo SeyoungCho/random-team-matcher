@@ -28,6 +28,7 @@ const Members = ({ members, setMembers }: IProps) => {
           {members.map((member, index) => (
             <S.MemberWrapper key={index} data-member={member}>
               <S.Member>{member}</S.Member>
+              <S.CheckBox type="checkbox" />
             </S.MemberWrapper>
           ))}
         </S.Members>

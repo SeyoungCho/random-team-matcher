@@ -27,7 +27,7 @@ export const EmptyMembers = styled.div`
 `;
 
 export const MemberWrapper = styled.li`
-  ${Mixin.flex('flex-start')};
+  ${Mixin.flex('space-between')};
   ${Mixin.shadow()};
   list-style: none;
   background-color: ${Color.primary};
@@ -66,3 +66,5 @@ export const Form = styled.form`
     height: 70%;
   }
 `;
+
+export const CheckBox = styled.input``;
